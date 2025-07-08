@@ -18,7 +18,7 @@ const HeroSection = () => {
             Usman Traders
           </h1>
           <p className="text-xl md:text-2xl text-brand-dark mb-8 font-inter">
-            Your Trusted Partner in Mobile Accessories, Marble, Leather Products & Gem Stone
+            Your Trusted Partner in Mobile Accessories, Marble, Leather Products & Gem Stone <span className="text-amber-800 border-b-2 border-amber-800">(Affiliated with Gujrat Chamber of Commerce, Est 2015)</span>
           </p>
           <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
             With years of excellence in international trade, we deliver premium quality products 

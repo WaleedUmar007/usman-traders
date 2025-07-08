@@ -5,24 +5,6 @@ const GallerySection = () => {
 
   const galleryItems = [
     {
-      category: 'mobile-accessory',
-      title: 'Wireless Chargers',
-      image: '/wirelessCharger.jpg',
-      description: 'Premium wireless charging pads'
-    },
-    {
-      category: 'mobile-accessory',
-      title: 'Phone Cases',
-      image: '/phoneCases.jpg',
-      description: 'Protective phone cases and covers'
-    },
-    {
-      category: 'mobile-accessory',
-      title: 'Earbuds',
-      image: '/earBuds.jpg',
-      description: 'Premium wireless earbuds and headphones'
-    },
-    {
       category: 'marble',
       title: 'White Carrara Marble',
       image: '/marble1.jpg',
@@ -39,6 +21,30 @@ const GallerySection = () => {
       title: 'Veined Marble',
       image: '/marble3.jpg',
       description: 'Natural veined marble patterns'
+    },
+    {
+      category: 'marble',
+      title: 'Premium Marble Collection',
+      image: '/marble4.jpg',
+      description: 'High-quality marble for luxury projects'
+    },
+    {
+      category: 'marble',
+      title: 'Designer Marble Tiles',
+      image: '/marble5.jpg',
+      description: 'Contemporary marble tile designs'
+    },
+    {
+      category: 'marble',
+      title: 'Classic Marble Flooring',
+      image: '/marble6.jpg',
+      description: 'Timeless marble flooring solutions'
+    },
+    {
+      category: 'marble',
+      title: 'Exotic Marble Varieties',
+      image: '/marble7.jpg',
+      description: 'Rare and unique marble collections'
     },
     {
       category: 'leather',
@@ -75,15 +81,33 @@ const GallerySection = () => {
       title: 'Precious Stone Collection',
       image: '/lovable-uploads/55408f2b-7e41-4ada-885d-5206c3713c3f.png',
       description: 'Assorted precious gemstones'
+    },
+    {
+      category: 'mobile-accessory',
+      title: 'Wireless Chargers',
+      image: '/wirelessCharger.jpg',
+      description: 'Premium wireless charging pads'
+    },
+    {
+      category: 'mobile-accessory',
+      title: 'Phone Cases',
+      image: '/phoneCases.jpg',
+      description: 'Protective phone cases and covers'
+    },
+    {
+      category: 'mobile-accessory',
+      title: 'Earbuds',
+      image: '/earBuds.jpg',
+      description: 'Premium wireless earbuds and headphones'
     }
   ];
 
   const categories = [
     { id: 'all', label: 'All Products' },
-    { id: 'mobile-accessory', label: 'Mobile Accessory' },
     { id: 'marble', label: 'Marble' },
     { id: 'leather', label: 'Leather' },
-    { id: 'gemstone', label: 'Gem Stone' }
+    { id: 'gemstone', label: 'Gem Stone' },
+    { id: 'mobile-accessory', label: 'Mobile Accessory' }
   ];
 
   const filteredItems = activeCategory === 'all' 

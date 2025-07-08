@@ -4,17 +4,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const ProductsSection = () => {
   const products = [
     {
-      title: 'Mobile Accessories',
-      description: 'High-quality mobile accessories including phone cases, screen protectors, chargers, and wireless accessories for all major smartphone brands.',
-      image: '/wirelessCharger.jpg',
-      features: [
-        'Premium Quality',
-        'Universal Compatibility', 
-        'Latest Technology',
-        'Durable Design'
-      ]
-    },
-    {
       title: 'Marble',
       description: 'Exquisite marble stones in various colors and patterns, perfect for construction, decoration, and architectural applications.',
       image: '/marble1.jpg',
@@ -36,6 +25,17 @@ const ProductsSection = () => {
       description: "Exquisite collection of precious and semi-precious stones sourced from around the world.",
       image: "/lovable-uploads/8d795e0b-ad18-403f-9381-4ab1312e138e.png",
       features: ["Certified Authentic", "Rare Collections", "Expert Sourcing", "Global Origins"]
+    },
+    {
+      title: 'Mobile Accessories',
+      description: 'High-quality mobile accessories including phone cases, screen protectors, chargers, and wireless accessories for all major smartphone brands.',
+      image: '/wirelessCharger.jpg',
+      features: [
+        'Premium Quality',
+        'Universal Compatibility', 
+        'Latest Technology',
+        'Durable Design'
+      ]
     }
   ];
 
