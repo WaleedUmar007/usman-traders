@@ -28,16 +28,16 @@ const Footer = () => {
               <div>
                 <h5 className="font-semibold text-white mb-2">Address</h5>
                 <p className="text-gray-300">
-                  Opposite UBL Bank, Bhimber Road<br />
+      
                   Kotla Arab Ali Khan<br />
-                  Gujrat Kharian (50990)
+                  Tehsil Kharian, District Gujrat
                 </p>
               </div>
               <div>
                 <h5 className="font-semibold text-white mb-2">Phone</h5>
                 <p className="text-gray-300">
-                  Proprietor: <a href="tel:03005900709" className="hover:text-brand-yellow transition-colors underline">03005900709</a><br />
-                  Manager: <a href="tel:03424332300" className="hover:text-brand-yellow transition-colors underline">03424332300</a>
+                  Proprietor: <a href="tel:03468186329" className="hover:text-brand-yellow transition-colors underline">03468186329</a><br />
+                  {/*Manager: <a href="tel:03424332300" className="hover:text-brand-yellow transition-colors underline">03424332300</a>*/}
                 </p>
               </div>
               <div>
