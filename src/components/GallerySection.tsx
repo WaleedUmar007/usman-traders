@@ -65,6 +65,18 @@ const GallerySection = () => {
       description: 'Professional leather bags'
     },
     {
+      category: 'leather',
+      title: 'Leather Belt',
+      image: '/leather_belt.jpg',
+      description: 'Premium leather belts'
+    },
+    {
+      category: 'leather',
+      title: 'Leather Belt (Classic)',
+      image: '/leather_belt1.jpg',
+      description: 'Premium leather belts'
+    },
+    {
       category: 'gemstone',
       title: 'Diamond Rings',
       image: '/lovable-uploads/8d795e0b-ad18-403f-9381-4ab1312e138e.png',
@@ -99,6 +111,12 @@ const GallerySection = () => {
       title: 'Earbuds',
       image: '/earBuds.jpg',
       description: 'Premium wireless earbuds and headphones'
+    },
+    {
+      category: 'mobile-accessory',
+      title: 'Tool Organizer',
+      image: '/tool_organizer.jpg',
+      description: 'Organizers and storage solutions'
     }
   ];
 
